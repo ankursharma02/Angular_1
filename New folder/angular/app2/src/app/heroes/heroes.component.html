@@ -1,0 +1,11 @@
+<h2>{{hero.name}} Details</h2>
+<div><span>id: </span>{{hero.id}}</div>
+<div><span>name: </span>{{hero.name}}</div>
+
+<h2>Mock-Hero class </h2>
+<h3>My Heroes</h3>
+<ul class="heroes">
+<li *ngFor="let her of heroes"> 
+  <span>{{her.id}}</span>  {{her.name}}
+</li>  
+</ul>
